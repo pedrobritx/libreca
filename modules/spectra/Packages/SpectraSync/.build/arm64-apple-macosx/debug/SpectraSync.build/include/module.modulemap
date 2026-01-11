@@ -1,3 +1,0 @@
-module SpectraSync {
-    header "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/arm64-apple-macosx/debug/SpectraSync.build/include/SpectraSync-Swift.h"
-}
