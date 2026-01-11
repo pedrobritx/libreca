@@ -1,0 +1,967 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.xctest/Contents/MacOS/SpectraSyncPackageTests",
+      "packagePath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync",
+      "productName" : "SpectraSyncPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SpectraCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraCore",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/ChannelIdentity.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Channel.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Folder.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Source.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Stream.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/UserData.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/M3UEntry.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/M3UParser.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/FolderRules.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/RuleEngine.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/SpectraCore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectracore"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraSync-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/CloudSyncManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/SyncableModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/ConflictResolution/ConflictResolver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/SpectraSync.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraSync",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSync.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/CloudSyncManager.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SyncableModels.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/ConflictResolver.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SpectraSync.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/include/SpectraSync-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectrasync"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSync.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/CloudSyncManager.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/SyncableModels.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/ConflictResolution/ConflictResolver.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/SpectraSync.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraSyncPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSyncTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraSyncPackageTests",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSyncPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/include/SpectraSyncPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectrasync"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSyncPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraSyncTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncTests.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Tests/SpectraSyncTests/SyncTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSync.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraSyncTests",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSyncTests.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncTests.build/SyncTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectrasync"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraSyncTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraSync/Tests/SpectraSyncTests/SyncTests.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SpectraCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraCore",
+      "-package-name",
+      "spectracore",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectracore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraSync" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraSync",
+      "-package-name",
+      "spectrasync",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/CloudSyncManager.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/SyncableModels.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/ConflictResolution/ConflictResolver.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/SpectraSync.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/include/SpectraSync-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectrasync",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraSyncPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraSyncPackageTests",
+      "-package-name",
+      "spectrasync",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/include/SpectraSyncPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectrasync",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraSyncTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraSyncTests",
+      "-package-name",
+      "spectrasync",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/Tests/SpectraSyncTests/SyncTests.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectrasync",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SpectraCore" : [
+
+    ],
+    "SpectraSync" : [
+      "SpectraCore"
+    ],
+    "SpectraSyncPackageTests" : [
+      "SpectraSyncTests",
+      "SpectraSync",
+      "SpectraCore"
+    ],
+    "SpectraSyncTests" : [
+      "SpectraSync",
+      "SpectraCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/CloudSyncManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/SyncableModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/ConflictResolution/ConflictResolver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/SpectraSync.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/Tests/SpectraSyncTests/SyncTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncTests.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/master.swiftdeps"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/runner.d",
+    "object": "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/runner.dia"
+  }
+}

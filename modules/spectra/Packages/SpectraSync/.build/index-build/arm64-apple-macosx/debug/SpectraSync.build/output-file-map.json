@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/master.swiftdeps"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/CloudSyncManager.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/CloudSyncManager.d",
+    "object": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/CloudSyncManager.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/CloudSyncManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/CloudSyncManager.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/CloudSyncManager.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/CloudKit/SyncableModels.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SyncableModels.d",
+    "object": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SyncableModels.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SyncableModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SyncableModels.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SyncableModels.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/ConflictResolution/ConflictResolver.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/ConflictResolver.d",
+    "object": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/ConflictResolver.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/ConflictResolver~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/ConflictResolver.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/ConflictResolver.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraSync/Sources/SpectraSync/SpectraSync.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SpectraSync.d",
+    "object": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SpectraSync.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SpectraSync~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SpectraSync.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSync.build/SpectraSync.dia"
+  }
+}

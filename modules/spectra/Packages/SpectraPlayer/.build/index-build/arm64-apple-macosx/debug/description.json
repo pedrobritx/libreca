@@ -1,0 +1,978 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.xctest/Contents/MacOS/SpectraPlayerPackageTests",
+      "packagePath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer",
+      "productName" : "SpectraPlayerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SpectraCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraCore",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/ChannelIdentity.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Channel.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Folder.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Source.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Stream.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/UserData.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/M3UEntry.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/M3UParser.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/FolderRules.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/RuleEngine.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/SpectraCore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectracore"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraPlayer-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/Errors/PlayerError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlaybackState/PlaybackState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/PlayerEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/StreamHealthChecker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/SpectraPlayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraPlayer",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayer.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/PlayerError.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/PlaybackState.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/PlayerEngine.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/StreamHealthChecker.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/SpectraPlayer.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/include/SpectraPlayer-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectraplayer"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayer.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/Errors/PlayerError.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlaybackState/PlaybackState.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/PlayerEngine.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/StreamHealthChecker.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/SpectraPlayer.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraPlayerPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayerTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraPlayerPackageTests",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayerPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/include/SpectraPlayerPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectraplayer"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayerPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraPlayerTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerTests.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Tests/SpectraPlayerTests/PlayerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayer.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraPlayerTests",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayerTests.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerTests.build/PlayerTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectraplayer"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraPlayerTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Tests/SpectraPlayerTests/PlayerTests.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SpectraCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraCore",
+      "-package-name",
+      "spectracore",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectracore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraPlayer" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraPlayer",
+      "-package-name",
+      "spectraplayer",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/Errors/PlayerError.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlaybackState/PlaybackState.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/PlayerEngine.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/StreamHealthChecker.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/SpectraPlayer.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/include/SpectraPlayer-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectraplayer",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraPlayerPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraPlayerPackageTests",
+      "-package-name",
+      "spectraplayer",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/include/SpectraPlayerPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectraplayer",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraPlayerTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraPlayerTests",
+      "-package-name",
+      "spectraplayer",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Tests/SpectraPlayerTests/PlayerTests.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectraplayer",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SpectraCore" : [
+
+    ],
+    "SpectraPlayer" : [
+      "SpectraCore"
+    ],
+    "SpectraPlayerPackageTests" : [
+      "SpectraPlayerTests",
+      "SpectraPlayer",
+      "SpectraCore"
+    ],
+    "SpectraPlayerTests" : [
+      "SpectraPlayer",
+      "SpectraCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/Errors/PlayerError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlaybackState/PlaybackState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/PlayerEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/PlayerEngine/StreamHealthChecker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Sources/SpectraPlayer/SpectraPlayer.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayer.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerPackageTests.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/Tests/SpectraPlayerTests/PlayerTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/SpectraPlayerTests.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

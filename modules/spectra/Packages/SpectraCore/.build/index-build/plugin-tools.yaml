@@ -1,0 +1,88 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SpectraCore-arm64-apple-macosx26.0-debug.module": ["<SpectraCore-arm64-apple-macosx26.0-debug.module>"]
+  "SpectraCorePackageTests-arm64-apple-macosx26.0-debug.module": ["<SpectraCorePackageTests-arm64-apple-macosx26.0-debug.module>"]
+  "SpectraCoreTests-arm64-apple-macosx26.0-debug.module": ["<SpectraCoreTests-arm64-apple-macosx26.0-debug.module>"]
+  "main": ["<SpectraCore-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<SpectraCore-arm64-apple-macosx26.0-debug.module>","<SpectraCoreTests-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/pedr/Developer/spectra/Packages/SpectraCore/Tests/SpectraCoreTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"]
+    outputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"]
+    description: "Write auxiliary file /Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"
+
+  "/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.derived/runner.swift"]
+    outputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.build/sources"]
+    description: "Write auxiliary file /Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.build/sources"
+
+  "/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCoreTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/pedr/Developer/spectra/Packages/SpectraCore/Tests/SpectraCoreTests/SpectraCoreTests.swift"]
+    outputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCoreTests.build/sources"]
+    description: "Write auxiliary file /Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCoreTests.build/sources"
+
+  "/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<SpectraCore-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"]
+    outputs: ["<SpectraCore-arm64-apple-macosx26.0-debug.module>"]
+
+  "<SpectraCorePackageTests-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCorePackageTests.swiftmodule"]
+    outputs: ["<SpectraCorePackageTests-arm64-apple-macosx26.0-debug.module>"]
+
+  "<SpectraCoreTests-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCoreTests.swiftmodule"]
+    outputs: ["<SpectraCoreTests-arm64-apple-macosx26.0-debug.module>"]
+
+  "C.SpectraCore-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"]
+    outputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"]
+    description: "Compiling Swift Module 'SpectraCore' (11 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","SpectraCore","-emit-dependencies","-emit-module","-emit-module-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule","-output-file-map","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/output-file-map.json","-parse-as-library","-incremental","@/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources","-I","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","spectracore"]
+
+  "C.SpectraCorePackageTests-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.derived/runner.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCoreTests.swiftmodule","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.build/sources"]
+    outputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCorePackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'SpectraCorePackageTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","SpectraCorePackageTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCorePackageTests.swiftmodule","-output-file-map","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.build/output-file-map.json","-parse-as-library","-incremental","@/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.build/sources","-I","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCorePackageTests.build/include/SpectraCorePackageTests-Swift.h","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","spectracore"]
+
+  "C.SpectraCoreTests-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/Tests/SpectraCoreTests/SpectraCoreTests.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCoreTests.build/sources"]
+    outputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCoreTests.swiftmodule"]
+    description: "Compiling Swift Module 'SpectraCoreTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","SpectraCoreTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCoreTests.swiftmodule","-output-file-map","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCoreTests.build/output-file-map.json","-parse-as-library","-incremental","@/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/SpectraCoreTests.build/sources","-I","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/pedr/Developer/spectra/Packages/SpectraCore/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","spectracore"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/","/Users/pedr/Developer/spectra/Packages/SpectraCore/Tests/SpectraCoreTests/","/Users/pedr/Developer/spectra/Packages/SpectraCore/Package.swift","/Users/pedr/Developer/spectra/Packages/SpectraCore/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

@@ -1,0 +1,11 @@
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift
+/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift

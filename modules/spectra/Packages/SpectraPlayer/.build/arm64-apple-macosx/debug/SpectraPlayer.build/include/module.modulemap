@@ -1,0 +1,3 @@
+module SpectraPlayer {
+    header "/Users/pedr/Developer/spectra/Packages/SpectraPlayer/.build/arm64-apple-macosx/debug/SpectraPlayer.build/include/SpectraPlayer-Swift.h"
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/master.swiftdeps"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/runner.d",
+    "object": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraSyncPackageTests.build/runner.dia"
+  }
+}

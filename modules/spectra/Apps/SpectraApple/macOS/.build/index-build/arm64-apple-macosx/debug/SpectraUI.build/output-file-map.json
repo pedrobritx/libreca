@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/master.swiftdeps"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/ChannelRow.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelRow.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelRow.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelRow.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelRow.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/FolderRow.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/FolderRow.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/FolderRow.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/FolderRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/FolderRow.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/FolderRow.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Lists/ChannelListView.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelListView.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelListView.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelListView.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelListView.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/NowNextOverlay.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/NowNextOverlay.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/NowNextOverlay.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/NowNextOverlay~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/NowNextOverlay.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/NowNextOverlay.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/PlayerControlsOverlay.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/PlayerControlsOverlay.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/PlayerControlsOverlay.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/PlayerControlsOverlay~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/PlayerControlsOverlay.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/PlayerControlsOverlay.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/SpectraUI.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/SpectraUI.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/SpectraUI.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/SpectraUI~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/SpectraUI.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/SpectraUI.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Theming/Theme.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/Theme.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/Theme.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/Theme.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/Theme.dia"
+  }
+}

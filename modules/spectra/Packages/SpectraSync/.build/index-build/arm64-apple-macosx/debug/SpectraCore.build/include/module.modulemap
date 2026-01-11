@@ -1,0 +1,3 @@
+module SpectraCore {
+    header "/Users/pedr/Developer/spectra/Packages/SpectraSync/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h"
+}

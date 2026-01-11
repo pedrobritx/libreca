@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/master.swiftdeps"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraLibrary/Sources/SpectraLibrary/ImportPipeline/ImportPipeline.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/ImportPipeline.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/ImportPipeline.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/ImportPipeline~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/ImportPipeline.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/ImportPipeline.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraLibrary/Sources/SpectraLibrary/Persistence/InMemoryStore.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/InMemoryStore.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/InMemoryStore.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/InMemoryStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/InMemoryStore.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/InMemoryStore.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraLibrary/Sources/SpectraLibrary/Persistence/LibraryStore.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/LibraryStore.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/LibraryStore.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/LibraryStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/LibraryStore.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/LibraryStore.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraLibrary/Sources/SpectraLibrary/Queries/Library.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/Library.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/Library.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/Library~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/Library.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/Library.dia"
+  },
+  "/Users/pedr/Developer/spectra/Packages/SpectraLibrary/Sources/SpectraLibrary/SpectraLibrary.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/SpectraLibrary.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/SpectraLibrary.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/SpectraLibrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/SpectraLibrary.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraLibrary.build/SpectraLibrary.dia"
+  }
+}

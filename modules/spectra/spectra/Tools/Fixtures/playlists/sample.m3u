@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="espn.us" tvg-name="ESPN HD" tvg-logo="https://example.com/espn.png" group-title="Sports",ESPN HD
+http://example.com/stream/espn.m3u8
+#EXTINF:-1 tvg-id="espn2.us" tvg-name="ESPN 2" tvg-logo="https://example.com/espn2.png" group-title="Sports",ESPN 2
+http://example.com/stream/espn2.m3u8
+#EXTINF:-1 tvg-id="cnn.us" tvg-name="CNN International" tvg-logo="https://example.com/cnn.png" group-title="News",CNN International
+http://example.com/stream/cnn.m3u8
+#EXTINF:-1 tvg-id="bbc.uk" tvg-name="BBC World News" tvg-logo="https://example.com/bbc.png" group-title="News",BBC World News
+http://example.com/stream/bbc.m3u8
+#EXTINF:-1 tvg-id="hbo.us" tvg-name="HBO HD" tvg-logo="https://example.com/hbo.png" group-title="Movies",HBO HD
+http://example.com/stream/hbo.m3u8
+#EXTINF:-1 tvg-id="discovery.us" tvg-name="Discovery Channel" tvg-logo="https://example.com/discovery.png" group-title="Documentary",Discovery Channel
+http://example.com/stream/discovery.m3u8
+#EXTINF:-1 tvg-id="mtv.us" tvg-name="MTV" tvg-logo="https://example.com/mtv.png" group-title="Music",MTV
+http://example.com/stream/mtv.m3u8
+#EXTINF:-1 tvg-id="cartoon.us" tvg-name="Cartoon Network" tvg-logo="https://example.com/cartoon.png" group-title="Kids",Cartoon Network
+http://example.com/stream/cartoon.m3u8

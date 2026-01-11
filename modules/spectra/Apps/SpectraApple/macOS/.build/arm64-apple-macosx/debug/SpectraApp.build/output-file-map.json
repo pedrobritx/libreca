@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/master.swiftdeps"
+  },
+  "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/Sources/AppState.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/AppState.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/AppState.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/AppState.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/AppState.dia"
+  },
+  "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/Sources/SpectraApp.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SpectraApp.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SpectraApp.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SpectraApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SpectraApp.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SpectraApp.dia"
+  },
+  "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/Sources/Views/ContentView.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ContentView.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ContentView.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ContentView.dia"
+  },
+  "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/Sources/Views/ImportSheetView.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ImportSheetView.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ImportSheetView.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ImportSheetView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ImportSheetView.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/ImportSheetView.dia"
+  },
+  "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/Sources/Views/PlayerView.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/PlayerView.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/PlayerView.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/PlayerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/PlayerView.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/PlayerView.dia"
+  },
+  "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/Sources/Views/SettingsView.swift": {
+    "dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SettingsView.d",
+    "object": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/pedr/Developer/spectra/Apps/SpectraApple/macOS/.build/arm64-apple-macosx/debug/SpectraApp.build/SettingsView.dia"
+  }
+}

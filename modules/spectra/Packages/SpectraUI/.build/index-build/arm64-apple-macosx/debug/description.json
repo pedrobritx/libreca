@@ -1,0 +1,1243 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.xctest/Contents/MacOS/SpectraUIPackageTests",
+      "packagePath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI",
+      "productName" : "SpectraUIPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SpectraCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraCore",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/ChannelIdentity.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Channel.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Folder.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Source.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/Stream.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/UserData.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/M3UEntry.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/M3UParser.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/FolderRules.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/RuleEngine.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/SpectraCore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectracore"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraEPG-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Cache/EPGCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Mapping/ChannelMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/SpectraEPG.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/EPGModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/XMLTVParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraEPG",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraEPG.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/EPGCache.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/ChannelMapper.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/SpectraEPG.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/EPGModels.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/XMLTVParser.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/include/SpectraEPG-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectraepg"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraEPG.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Cache/EPGCache.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Mapping/ChannelMapper.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/SpectraEPG.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/EPGModels.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/XMLTVParser.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraUI-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/ChannelRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/FolderRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Lists/ChannelListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/NowNextOverlay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/PlayerControlsOverlay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/SpectraUI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Theming/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraEPG.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraUI",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUI.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelRow.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/FolderRow.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/ChannelListView.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/NowNextOverlay.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/PlayerControlsOverlay.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/SpectraUI.swift.o",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/Theme.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/include/SpectraUI-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectraui"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/ChannelRow.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/FolderRow.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Lists/ChannelListView.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/NowNextOverlay.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/PlayerControlsOverlay.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/SpectraUI.swift",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Theming/Theme.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraUIPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUITests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraUIPackageTests",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUIPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/include/SpectraUIPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectraui"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUIPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SpectraUITests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUITests.build/sources",
+      "importPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Tests/SpectraUITests/UITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUI.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUITests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SpectraUITests",
+      "moduleOutputPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUITests.swiftmodule",
+      "objects" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUITests.build/UITests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spectraui"
+      ],
+      "outputFileMapPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUITests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules/SpectraUITests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/pedr/Developer/spectra/Packages/SpectraUI/Tests/SpectraUITests/UITests.swift"
+      ],
+      "tempsPath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUITests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SpectraCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraCore",
+      "-package-name",
+      "spectracore",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/include/SpectraCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectracore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraEPG" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraEPG",
+      "-package-name",
+      "spectraepg",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Cache/EPGCache.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Mapping/ChannelMapper.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/SpectraEPG.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/EPGModels.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/XMLTVParser.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/include/SpectraEPG-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectraepg",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraUI" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraUI",
+      "-package-name",
+      "spectraui",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/ChannelRow.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/FolderRow.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Lists/ChannelListView.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/NowNextOverlay.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/PlayerControlsOverlay.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/SpectraUI.swift",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Theming/Theme.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/include/SpectraUI-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectraui",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraUIPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraUIPackageTests",
+      "-package-name",
+      "spectraui",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/include/SpectraUIPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectraui",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SpectraUITests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SpectraUITests",
+      "-package-name",
+      "spectraui",
+      "-c",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/Tests/SpectraUITests/UITests.swift",
+      "-I",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spectraui",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SpectraCore" : [
+
+    ],
+    "SpectraEPG" : [
+      "SpectraCore"
+    ],
+    "SpectraUI" : [
+      "SpectraEPG",
+      "SpectraCore"
+    ],
+    "SpectraUIPackageTests" : [
+      "SpectraUITests",
+      "SpectraUI",
+      "SpectraEPG",
+      "SpectraCore"
+    ],
+    "SpectraUITests" : [
+      "SpectraUI",
+      "SpectraEPG",
+      "SpectraCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Identity/ChannelIdentity.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Channel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Folder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Source.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/Stream.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Models/UserData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Parsing/M3UParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/FolderRules.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/Rules/RuleEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraCore/Sources/SpectraCore/SpectraCore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraCore.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Cache/EPGCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/Mapping/ChannelMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/SpectraEPG.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/EPGModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraEPG/Sources/SpectraEPG/XMLTV/XMLTVParser.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraEPG.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/ChannelRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Components/FolderRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Lists/ChannelListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/NowNextOverlay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Overlays/PlayerControlsOverlay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/SpectraUI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Sources/SpectraUI/Theming/Theme.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUI.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUIPackageTests.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUITests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/Tests/SpectraUITests/UITests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/SpectraUITests.build/sources"
+    },
+    "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/pedr/Developer/spectra/Packages/SpectraUI/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv source-info-name="Sample EPG" generator-info-name="Spectra Fixtures">
+  <channel id="espn.us">
+    <display-name lang="en">ESPN HD</display-name>
+    <icon src="https://example.com/espn.png"/>
+  </channel>
+  <channel id="cnn.us">
+    <display-name lang="en">CNN International</display-name>
+    <icon src="https://example.com/cnn.png"/>
+  </channel>
+  <channel id="hbo.us">
+    <display-name lang="en">HBO HD</display-name>
+    <icon src="https://example.com/hbo.png"/>
+  </channel>
+  
+  <programme start="20250101180000 +0000" stop="20250101210000 +0000" channel="espn.us">
+    <title lang="en">NFL Sunday Night Football</title>
+    <sub-title lang="en">Chiefs vs Eagles</sub-title>
+    <desc lang="en">Live coverage of the NFL matchup between Kansas City Chiefs and Philadelphia Eagles.</desc>
+    <category lang="en">Sports</category>
+    <category lang="en">Football</category>
+  </programme>
+  
+  <programme start="20250101210000 +0000" stop="20250101220000 +0000" channel="espn.us">
+    <title lang="en">SportsCenter</title>
+    <desc lang="en">The latest sports news and highlights.</desc>
+    <category lang="en">Sports News</category>
+  </programme>
+  
+  <programme start="20250101180000 +0000" stop="20250101190000 +0000" channel="cnn.us">
+    <title lang="en">CNN Tonight</title>
+    <desc lang="en">Breaking news and analysis of the day's top stories.</desc>
+    <category lang="en">News</category>
+  </programme>
+  
+  <programme start="20250101200000 +0000" stop="20250101220000 +0000" channel="hbo.us">
+    <title lang="en">The Dark Knight</title>
+    <sub-title lang="en">2008 Film</sub-title>
+    <desc lang="en">Batman faces the Joker in this critically acclaimed superhero film.</desc>
+    <category lang="en">Movie</category>
+    <category lang="en">Action</category>
+    <credits>
+      <director>Christopher Nolan</director>
+      <actor>Christian Bale</actor>
+      <actor>Heath Ledger</actor>
+    </credits>
+    <date>2008</date>
+    <star-rating>
+      <value>9/10</value>
+    </star-rating>
+  </programme>
+</tv>
